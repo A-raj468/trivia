@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcard Trivia</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="flashcard-container">
+      <h1>Flashcard Trivia Game</h1>
+
+      <div class="controls">
+        <button id="get-new-questions-btn">Get New Questions</button>
+      </div>
+
+      <div class="info">
+        <p id="score">Score: 0</p>
+        <p id="timer">Time Remaining: <span id="time-left">30</span> seconds</p>
+      </div>
+
+      <select id="category-select" class="category-select">
+        <option value="">Loading categories...</option>
+      </select>
+
+      <select id="difficulty-select" class="difficulty-select">
+        <option value="any">Any Difficulty</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+
+      <div class="flashcard">
+        <div class="front">
+          <div class="card-text">Loading...</div>
+        </div>
+        <div class="back">
+          <div class="card-text">Loading...</div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="prev-btn">Prev</button>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
