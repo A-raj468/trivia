@@ -4,6 +4,11 @@
 
 A fun trivia game that displays questions on flashcards with a timer and scoring system. Users can answer questions, track their score, and get new trivia questions with each round.
 
+## Live Demo
+
+You can play the trivia game online by visiting the following link:
+[Play Flashcard Trivia](https://a-raj468.github.io/trivia/)
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
